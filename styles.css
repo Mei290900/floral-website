@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Autour+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Agbalumo", serif;
+}
+
+.navbar .container-fluid .header-text {
+  color: #fc3468;
+}
+.navbar .container-fluid .navbar-collapse .nav-item a {
+  color: #ffc2cd;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+
+.navbar-collapse .navbar-nav .nav-item a:hover {
+  color: #fc3468;
+}
+
+.background-home {
+  background-size: cover;
+  background-position: center;
+}
+.background-home img {
+  width: 100%;
+  height: auto;
+}
+.background-home .content {
+  max-width: 50%;
+  line-height: 2rem;
+  position: absolute;
+}
+.background-home .content .card-body {
+  top: 50%;
+  left: 10%;
+}
+.background-home .content h1 {
+  color: #fc3468;
+}
+.background-home .content h2 {
+  color: gray;
+}
+.background-home .content p {
+  color: #ff6289;
+}
+
+.container-fluid .row {
+  background-color: #ffc2cd;
+  padding: 50px;
+}
+.container-fluid .row .about-us h1 {
+  align-items: end;
+}
+
+.container .row {
+  height: 700px;
+}
+.container .row .col-lg-4 .background {
+  width: 400px;
+  height: 620px;
+  background: linear-gradient(0deg, rgb(238, 10, 103) 0%, rgb(254, 161, 190) 100%);
+}
+.container .row .col-lg-4 .background .wrapper img {
+  width: 350px;
+  height: auto;
+}
+.container .row .col-lg-4 .background .wrapper-content {
+  padding: 20px 30px;
+  color: #ffc2cd;
+}/*# sourceMappingURL=styles.css.map */

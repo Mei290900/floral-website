@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Autour+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Agbalumo', serif;
+}
+
+.navbar{
+    // background-color:#ff93ac;
+    .container-fluid{        
+        .header-text{
+            color: #fc3468;            
+        } 
+        .navbar-collapse{
+            .nav-item{
+                a{
+                    color:#ffc2cd;
+                    // transition: all 0.5s ease;
+                    transition-duration:0.5s;
+                    transition-delay: 0s;
+                }
+            }
+        }                
+        }
+    }
+
+.navbar-collapse{
+    .navbar-nav{
+        .nav-item{
+            a:hover{
+                color:#fc3468;
+            }
+        }
+    }
+}
+
+
+//  --section-1---
+
+.background-home{
+    background-size: cover;
+    background-position: center;
+    
+    img{
+        width:100%;
+        height:auto;        
+    }   
+        .content{            
+            max-width: 50%;
+            line-height: 2rem;
+            position: absolute;
+            .card-body{
+                top:50%;
+                left:10%;
+            }
+            h1{
+                color:#fc3468; 
+               
+            }   
+            h2{
+                color: gray;
+               
+            }  
+            p{
+                color:	#ff6289;
+               
+                
+            } 
+        }
+    }
+
+    //section-2
+
+.container-fluid{
+    .row{
+        background-color: #ffc2cd;
+        padding: 50px;
+        .about-us{
+            h1{
+                align-items: end;
+            }
+        }
+    }
+}
+
+
+
+//section-3
+
+.container{
+    .row{
+        height: 700px;
+        .col-lg-4{
+            .background{
+                width: 400px;
+                height:620px;
+                background: linear-gradient(0deg, rgba(238,10,103,1) 0%, rgba(254,161,190,1) 100%);
+                .wrapper{
+                    img{
+                        width:350px;
+                        height: auto;
+                    }
+                }
+                .wrapper-content{
+                    padding: 20px 30px;
+                    color: #ffc2cd;
+                }
+                
+            }
+        }
+    }
+}
