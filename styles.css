@@ -65,6 +65,11 @@
 }
 .secontion3-customcontainer .part3 .col-lg-4 .background .wrapper-content {
   padding: 20px 30px;
+}
+.secontion3-customcontainer .part3 .col-lg-4 .background .wrapper-content h4 {
+  color: #fff;
+}
+.secontion3-customcontainer .part3 .col-lg-4 .background .wrapper-content p {
   color: #ffc2cd;
 }
 
@@ -88,4 +93,8 @@
 .secontion5-customcontainer .part5 .custom .img-container img:hover {
   width: 105%;
   transition: 1s;
+}
+
+.custom-footerimg {
+  background-image: src;
 }/*# sourceMappingURL=styles.css.map */

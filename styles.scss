@@ -142,7 +142,12 @@
                 }
                 .wrapper-content{
                     padding: 20px 30px;
+                    h4{
+                        color: #fff;
+                    }
+                    p{
                     color: #ffc2cd;
+                    }
                 }
                 
             }
@@ -186,4 +191,9 @@
             }
         }
     }
+}
+
+// footer
+.custom-footerimg{
+    img
 }
