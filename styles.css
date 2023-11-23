@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Agbalumo", serif;
+  font-family: "PT Serif", serif;
 }
 
 .navbar .container-fluid .header-text {
@@ -24,7 +24,7 @@
   overflow: hidden;
 }
 .carousel .carousel-inner .c-item {
-  height: 700px;
+  height: 650px;
 }
 .carousel .carousel-inner .c-item .c-img {
   height: 100%;
@@ -35,9 +35,6 @@
 .carousel .carousel-inner .c-item .c-img .carousel-caption {
   bottom: 220px;
 }
-.carousel .carousel-inner .c-item .c-img .carousel-caption .container-fluid {
-  background: rgba(0, 0, 0, 0.5);
-}
 
 .container-fluid .row {
   background-color: #ffc2cd;
@@ -47,25 +44,48 @@
 }
 
 @media (max-width: 767px) {
-  .container-fluid .row .col-lg-9 {
+  .custom-containerfluid .row .col-lg-9 {
     white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 }
-.container .part3 {
-  height: 700px;
-}
-.container .part3 .col-lg-4 .background {
+.secontion3-customcontainer .part3 .col-lg-4 .background {
   width: 400px;
-  height: 580px;
+  height: 600px;
   background: linear-gradient(0deg, rgb(238, 10, 103) 0%, rgb(254, 161, 190) 100%);
 }
-.container .part3 .col-lg-4 .background .wrapper img {
+.secontion3-customcontainer .part3 .col-lg-4 .background .wrapper img {
   width: 90%;
   height: auto;
 }
-.container .part3 .col-lg-4 .background .wrapper-content {
+.secontion3-customcontainer .part3 .col-lg-4 .background .wrapper img:hover {
+  width: 93%;
+  transition: 0.9s;
+}
+.secontion3-customcontainer .part3 .col-lg-4 .background .wrapper-content {
   padding: 20px 30px;
   color: #ffc2cd;
+}
+
+.secontion4-customcontainer .part4 .col-lg-6 .img-container img {
+  transition: 1s;
+}
+.secontion4-customcontainer .part4 .col-lg-6 .img-container img:hover {
+  width: 55%;
+  transform: scale(1.1);
+}
+
+.secontion5-customcontainer .part5 .custom .img-container {
+  max-width: 500px;
+  height: auto;
+}
+.secontion5-customcontainer .part5 .custom .img-container img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.secontion5-customcontainer .part5 .custom .img-container img:hover {
+  width: 105%;
+  transition: 1s;
 }/*# sourceMappingURL=styles.css.map */

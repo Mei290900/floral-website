@@ -5,7 +5,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Agbalumo', serif;
+    font-family: 'PT Serif', serif;
 }
 
 .navbar{
@@ -77,21 +77,20 @@
 
     .carousel-inner{
         .c-item{
-            height:700px;
+            height:650px;
             .c-img{
                height: 100%;
                object-fit: cover;
                filter: brightness(0.5);
                .carousel-caption{
                 bottom: 220px;
-                    .container-fluid{
-                        background: rgba(0,0,0,0.5);
+                   
                 }
                }
             }
     }
 }
-}
+
 
     //section-2
 
@@ -108,7 +107,7 @@
 }
 
 @media (max-width: 767px) { 
-    .container-fluid{
+    .custom-containerfluid{
         .row{
            .col-lg-9{
             white-space: wrap;
@@ -123,18 +122,22 @@
 
 //section-3
 
-.container{
+.secontion3-customcontainer{
     .part3{
-        height: 700px;
+       
         .col-lg-4{
             .background{
                 width: 400px;
-                height:580px;
+                height:600px;
                 background: linear-gradient(0deg, rgba(238,10,103,1) 0%, rgba(254,161,190,1) 100%);
                 .wrapper{
                     img{
                         width:90%;
                         height: auto;
+                    }
+                    img:hover{
+                        width: 93%;                        
+                        transition: 0.9s;
                     }
                 }
                 .wrapper-content{
@@ -148,12 +151,17 @@
 }
 
 //section 4
-.container{    
+.secontion4-customcontainer{    
     .part4{
-        .col{
-            .img-container{
+        .col-lg-6{
+            .img-container{                
                 img{
-                    
+                    transition:1s;
+                }
+                img:hover{   
+                    width: 55%;                                    
+                  transform: scale(1.1);
+                   
                 }
             }
        }
@@ -161,12 +169,19 @@
 }
 
 //section 5
-.container{   
+.secontion5-customcontainer{   
     .part5{
-        .col{
+        .custom{
             .img-container{
+                max-width: 500px;
+                height: auto;
                 img{
-                    
+                    width: 100%;                    
+                    object-fit: cover;
+                }
+                img:hover{
+                    width: 105%;
+                    transition: 1s;
                 }
             }
         }
