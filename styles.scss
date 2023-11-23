@@ -96,12 +96,15 @@
 
 .container-fluid{
     .row{
-        background-color: #ffc2cd;
-        
+        background-color: #ffc2cd;        
         .about-us{
             h1{
                 align-items: end;
             }
+            
+        }
+        .para{
+            line-height: 50px;
         }
     }
 }
