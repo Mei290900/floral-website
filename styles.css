@@ -59,12 +59,8 @@
   width: 90%;
   height: auto;
 }
-.secontion3-customcontainer .part3 .col-lg-4 .background .wrapper img:hover {
-  width: 93%;
-  transition: 0.9s;
-}
 .secontion3-customcontainer .part3 .col-lg-4 .background .wrapper-content {
-  padding: 20px 30px;
+  padding: 15px 15px;
 }
 .secontion3-customcontainer .part3 .col-lg-4 .background .wrapper-content h4 {
   color: #fff;
@@ -95,6 +91,74 @@
   transition: 1s;
 }
 
-.custom-footerimg {
-  background-image: src;
+.shadesofpink .sop-wrapper .logo a {
+  color: #fc3468;
+}
+.shadesofpink .sop-wrapper .text p {
+  color: brown;
+}
+
+.shadesofpink-container .text-navi a {
+  color: #fc3468;
+}
+
+.sop-container .row .col-lg-3 .sop-img-container {
+  width: 200.75px;
+  height: 212.75px;
+}
+.sop-container .row .col-lg-3 .sop-img-container img {
+  width: 100%;
+  height: 100% !important;
+}
+
+.sop-container .row .col-lg-3 .sop-img-container img:hover {
+  filter: brightness(0.7);
+  transition: 1s;
+}
+
+.rosewithbabebreathe-container .row .col-lg-6 {
+  background-size: cover;
+  overflow: hidden;
+}
+.rosewithbabebreathe-container .row .col-lg-6 .rosewithbabebreathe-img {
+  width: 100%;
+  height: auto;
+}
+.rosewithbabebreathe-container .row .col-lg-6 .rosewithbabebreathe-img img {
+  width: 100%;
+  height: 100%;
+}
+.rosewithbabebreathe-container .row .col-lg-6 .rosewithbabebreathe-img img:hover {
+  filter: brightness(0.5);
+  transition: 0.5s;
+}
+.rosewithbabebreathe-container .row .col-lg-6 .rosewithbabebreathe-caption {
+  min-width: 300px;
+}
+.rosewithbabebreathe-container .row .col-lg-6 .rosewithbabebreathe-caption h2 {
+  color: #fc3468;
+}
+
+.card-message p {
+  font-size: 18px;
+  color: #fc3468;
+}
+.card-message textarea {
+  width: 70%;
+  height: 55px;
+  padding: 15px;
+  overflow: hidden;
+  resize: none;
+}
+
+.quantity p {
+  font-size: 15px;
+  color: #fc3468;
+}
+.quantity textarea {
+  width: 70%;
+  height: 55px;
+  padding: 15px;
+  overflow: hidden;
+  resize: none;
 }/*# sourceMappingURL=styles.css.map */

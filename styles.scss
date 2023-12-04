@@ -36,41 +36,6 @@
         }
     }
 }
-
-
-//  --section-1---
-
-// .background-home{
-//     background-size: cover;
-//     background-position: center;
-    
-//     img{
-//         width:100%;
-//         height:auto;        
-//     }   
-//         .content{            
-//             max-width: 50%;
-//             line-height: 2rem;
-//             position: absolute;
-//             .card-body{
-//                 top:50%;
-//                 left:10%;
-//             }
-//             h1{
-//                 color:#fc3468; 
-               
-//             }   
-//             h2{
-//                 color: gray;
-               
-//             }  
-//             p{
-//                 color:	#ff6289;
-               
-                
-//             } 
-//         }
-//     }
 .carousel{
     display: flex;
   overflow: hidden;
@@ -101,11 +66,9 @@
             h1{
                 align-items: end;
             }
-            
+           
         }
-        .para{
-            line-height: 50px;
-        }
+        
     }
 }
 
@@ -139,12 +102,12 @@
                         height: auto;
                     }
                     img:hover{
-                        width: 93%;                        
-                        transition: 0.9s;
+                        // width: 93%;                        
+                        // transition: 0.9s;
                     }
                 }
                 .wrapper-content{
-                    padding: 20px 30px;
+                    padding: 15px 15px;
                     h4{
                         color: #fff;
                     }
@@ -163,12 +126,12 @@
     .part4{
         .col-lg-6{
             .img-container{                
-                img{
-                    transition:1s;
-                }
-                img:hover{   
-                    width: 55%;                                    
-                  transform: scale(1.1);
+                // img{
+                //     transition:1s;
+                // }
+                // img:hover{   
+                //     width: 55%;                                    
+                //   transform: scale(1.1);
                    
                 }
             }
@@ -183,20 +146,140 @@
             .img-container{
                 max-width: 500px;
                 height: auto;
-                img{
-                    width: 100%;                    
-                    object-fit: cover;
-                }
-                img:hover{
-                    width: 105%;
-                    transition: 1s;
+                // img{
+                //     width: 100%;                    
+                //     object-fit: cover;
+                // }
+                // img:hover{
+                //     width: 105%;
+                //     transition: 1s;
                 }
             }
         }
     }
 }
 
-// footer
-.custom-footerimg{
-    img
+// Shades of Pink > View Collection Css
+.shadesofpink{
+    .sop-wrapper{
+        .logo{
+            a{
+                color:#fc3468
+            }
+        }
+        .text{
+            p{
+                color:brown;
+            }
+        }
+    }
 }
+
+.shadesofpink-container{
+    .text-navi{
+        a{
+            color: #fc3468;
+        }
+    }
+}
+
+.sop-container{
+    .row{
+        .col-lg-3{
+            
+            .sop-img-container{
+                width: 200.75px;
+                height: 212.75px;
+                
+
+                
+                img{
+                    width: 100%;
+                    height:100% !important;
+                    
+                    
+                }
+            }
+            
+        }
+    }
+}
+.sop-container{
+    .row{
+        .col-lg-3{
+            .sop-img-container{
+                img:hover{
+                    filter: brightness(0.7);
+                    transition:1s;
+                }
+            }
+        }
+    }
+}
+
+
+
+ 
+
+
+// Rose with Babe Breathe CSS
+.rosewithbabebreathe-container{
+    .row{
+        .col-lg-6{
+            
+            background-size: cover;
+            overflow: hidden;
+            .rosewithbabebreathe-img{
+                width: 100%;
+                height: auto;                
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                img:hover{
+                    filter: brightness(0.5);
+                    transition: 0.5s;
+                }
+            }
+            .rosewithbabebreathe-caption{
+              min-width: 300px;
+              h2{
+                color: #fc3468;
+              }
+            }
+        }
+    }
+}
+
+.card-message {
+    p{
+        font-size: 18px;
+        color: #fc3468;
+    }
+    textarea{
+        width: 70%;
+        height: 55px;
+        padding: 15px;
+        overflow: hidden;
+        resize: none;
+    }    
+}
+
+.quantity{
+    p{
+        font-size: 15px;
+        color: #fc3468;
+    }
+    textarea{
+        width: 70%;
+        height: 55px;
+        padding: 15px;
+        overflow: hidden;
+        resize: none;
+    }  
+}
+
+
+
+
+
