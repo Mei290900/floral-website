@@ -8,17 +8,15 @@
     font-family: 'PT Serif', serif;
 }
 
-.navbar{
-    // background-color:#ff93ac;
+.navbar{    
     .container-fluid{        
         .header-text{
             color: #fc3468;            
         } 
-        .navbar-collapse{
-            .nav-item{
-                a{
-                    color:#ffc2cd;
-                    // transition: all 0.5s ease;
+        .collapse{
+            .navbar-nav{
+                a{ 
+                    color:#ffc2cd;                  
                     transition-duration:0.5s;
                     transition-delay: 0s;
                 }
@@ -27,15 +25,14 @@
         }
     }
 
-.navbar-collapse{
-    .navbar-nav{
-        .nav-item{
+.collapse{
+    .navbar-nav{        
             a:hover{
                 color:#fc3468;
             }
         }
     }
-}
+
 .carousel{
     display: flex;
   overflow: hidden;
